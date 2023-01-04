@@ -1,0 +1,100 @@
+:root {
+    --body-bg-color: #232731;
+    --container-bg-color: #323742;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+#problema {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+p {
+    text-align: justify;
+    color: #d7dde8;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 2.0em;
+    color: #a2bd8b;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #8ebbba;
+    text-align: center;
+}
+
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 85%;
+    margin: auto;
+}
+
+form input {
+    font-size: 1.0em;
+    height: 30px;
+    padding: 0 20px;
+    color: #d7dde8;
+    background-color: #323742;
+}
+
+form input:focus {
+    outline: 3px solid #8ebbba;
+
+}
+
+form button {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 20px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #d7dde8;
+}
+
+.container {
+    max-width: 640px;
+    margin: 30px auto;
+    background-color: var(--container-bg-color);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.label {
+    font-size: 1.3em;
+    color: #87bfcf;
+    padding: 10px;
+}
+
+.paragrafo-resultado, .paragrafo-dado-invalido {
+    margin: 20px auto 10px;
+    width: 60%;
+    background-color: rgb(109, 255, 182);
+    color: #232731;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.paragrafo-dado-invalido {
+    background-color: rgb(255, 150, 150);
+}
